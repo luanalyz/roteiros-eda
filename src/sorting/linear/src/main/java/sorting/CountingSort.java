@@ -9,7 +9,7 @@ public class CountingSort {
     * criar métodos auxiliares se precisar.
     */
 
-    public int[] classicCountingSort(int[] a, int k) {
+    public static int[] classicCountingSort(int[] a, int k) {
         int[] c = new int[k];
         int[] b = new int[a.length];
 
